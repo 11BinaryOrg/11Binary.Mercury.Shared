@@ -8,12 +8,14 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.1.0</Version>
+    <TargetFramework>net6.0</TargetFramework>
+    <Version>2.0.0</Version>
     <Authors>J. Tracy Rooks</Authors>
     <Company>1Binary</Company>
     <Description>Global interface and shared class assembly for MythSuite archiecture from 11Binary.</Description>
     <Copyright>J. Tracy Rooks</Copyright>
+    <RepositoryUrl>https://github.com/trooks1017/11Binary.Mercury.Shared.git</RepositoryUrl>
+    <AssemblyName>11Binary.Mercury.Shared</AssemblyName>
   </PropertyGroup>
 
 </Project>
