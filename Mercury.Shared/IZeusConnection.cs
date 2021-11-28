@@ -8,7 +8,7 @@ namespace Mercury.Shared
 
         ConnectionTypes.ConnType ConnectionType { get; set; }
             string ConnectionName { get; set; }
-            System.Threading.CancellationToken token { get; set; }
+            System.Threading.CancellationToken Token { get; set; }
             string NameSpace {get;set;}
             string Location { get; set; }
             string Connect { get; set; }

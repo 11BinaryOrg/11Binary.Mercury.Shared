@@ -18,4 +18,17 @@
     <AssemblyName>11Binary.Mercury.Shared</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="IDataController.cs" />
+    <Compile Remove="IMedussaClient.cs" />
+    <Compile Remove="IMythSuiteManager.cs" />
+    <Compile Remove="IMythSuiteTask.cs" />
+    <Compile Remove="ITaskCommand.cs" />
+    <Compile Remove="PropInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
 </Project>
