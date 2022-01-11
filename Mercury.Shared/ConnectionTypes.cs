@@ -8,18 +8,25 @@ namespace Mercury.Shared
 {
     public static class ConnectionTypes
     {
-        
         public enum ConnType
         {
-            Redis = 0, 
-            SBTopic = 2,
-            SBQueue =1, 
-            SBEventBus = 3
+            SBTopic = 0,
+            SBQueue = 1,
+            SBEventBus = 2,
+            gRPCZeus = 3
+        };
+
+        public enum Connect
+        {
+            Send = 0,
+            Listen = 1,
+            Manage = 2
+        };
+
+        public enum Location
+        {
+            Local = 0,
+            Remote = 1
         }
-
-         public static string Location { get; set; }
-         public static string Connect { get; set; }
-
-
     }
 }
