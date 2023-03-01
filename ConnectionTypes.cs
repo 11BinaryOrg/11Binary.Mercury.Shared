@@ -17,8 +17,15 @@ namespace Mercury.Shared
             SBEventBus = 3
         }
 
-         public static string Location { get; set; }
-         public static string Connect { get; set; }
+         public enum Location {
+            Local = 0,
+            Remote = 1
+        }
+         public enum Connect {
+            Manage = 0,
+            Listen = 1,
+            Send = 2
+        }
 
 
     }
